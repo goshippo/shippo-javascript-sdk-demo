@@ -11,9 +11,9 @@ Before you run this code, you will need to have performed the below steps:
 2. [Create a Shippo Account](https://apps.goshippo.com/join)
 3. [Generate a Shippo API Token](https://support.goshippo.com/hc/en-us/articles/360026412791-Managing-Your-API-Tokens-in-Shippo#:~:text=Generate%20a%20Token,-To%20generate%20a&text=To%20generate%20a%20Test%20Token,and%20purchase%20test%20shipping%20labels.). Since this is a sample app, it is recommended that you generate a test token rather than a production (i.e., paid) token.
 4. Update the code in shippo-python-sdk-demo.py to use your token
-``` python
-  # Put your real token below...
-  sdk = shippo.Shippo(api_key_header="shippo_test_0123456789abcdef0123456789abcdef01234567")
+``` javascript
+  // Put your real token below...
+  const sdk = new Shippo({ apiKeyHeader: "shippo_test_0123456789abcdef0123456789abcdef01234567"});  
 ```
 5. Install pre-requisites
 ```shell

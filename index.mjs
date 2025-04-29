@@ -4,7 +4,7 @@ import fs from 'fs';
 import path from 'path';
 import https from 'https';
 
-const sdk = new Shippo("<YOUR API TOKEN>");
+const sdk = new Shippo({ apiKeyHeader: "<YOUR API TOKEN>"});
 
 const shipment = await sdk.shipments.create({
   "addressFrom": {
