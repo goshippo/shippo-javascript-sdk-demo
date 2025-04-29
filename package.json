@@ -8,6 +8,7 @@
     "url": "https://github.com/goshippo/shippo-javascript-sdk-demo.git"
   },
   "scripts": {
+    "start": "node index.mjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Shippo",
